@@ -33,7 +33,7 @@
 #include "rsl_drive_sdk/PDO/TxPdoE.hpp"
 #include "rsl_drive_sdk/common/ObjectDictionary.hpp"
 #include "rsl_drive_sdk/configuration/DriveConfigurationParser.hpp"
-#include <soem_rsl/ethercattype.h>
+#include <soem_vendor/ethercattype.h>
 namespace rsl_drive_sdk
 {
 
