@@ -52,6 +52,7 @@
 #include "rsl_drive_sdk/configuration/DriveConfiguration.hpp"
 #include "rsl_drive_sdk/fsm/StateMachine.hpp"
 #include "rsl_drive_sdk/usings.hpp"
+#include "rsl_drive_sdk/common/BrakeState.hpp"
 
 
 namespace rsl_drive_sdk
@@ -292,10 +293,9 @@ public:
   bool setFanLowerTemperature(const float temperature);
   bool getFanUpperTemperature(float & temperature);
   bool setFanUpperTemperature(const float temperature);
-  bool setBrakeMode(const bool mode);
-  bool getBrakeMode(bool & mode);
-  bool setBrakeDuty(const float d);
-  bool getBrakeDuty(float & d);
+  bool setBrakeTargetState(const BrakeState state);
+  bool getBrakeCurrentState(BrakeState & state);
+
   bool getGearJointVelocityFilterType(uint32_t & type);
   bool setGearJointVelocityFilterType(const uint32_t type);
   bool getGearJointVelocityKfNoiseVariance(float & variance);

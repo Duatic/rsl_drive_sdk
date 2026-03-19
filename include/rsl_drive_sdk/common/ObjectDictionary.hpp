@@ -260,6 +260,8 @@
 #define OD_FILTER_JOINT_ACCELERATION_SID_IIR_ALPHA                             (uint8_t(0x05))
 #define OD_FILTER_JOINT_ACCELERATION_SID_EMA_ALPHA                             (uint8_t(0x05))
 #define OD_FILTER_D_GAIN                                                       (uint16_t(0x7604))
+#define OD_BRAKE_CURRENT_STATE                                                 (uint16_t(0x7605)) 
+#define OD_BRAKE_TARGET_STATE                                                  (uint16_t(0x7606)) 
 
 // Control
 #define OD_CONTROL_DIRECTION_ID                                                (uint16_t(0x7100))
@@ -290,11 +292,7 @@
 #define OD_CONTROL_FAN_SID_INTENSITY                                           (uint8_t(0x2))
 #define OD_CONTROL_FAN_SID_LOWER_TEMPERATURE                                   (uint8_t(0x3))
 #define OD_CONTROL_FAN_SID_UPPER_TEMPERATURE                                   (uint8_t(0x4))
-#define OD_CONTROL_BRAKE_ID                                                    (uint16_t(0x7107))
-#define OD_CONTROL_BRAKE_SID_CTRL                                              (uint8_t(0x1))
-#define OD_CONTROL_BRAKE_SID_DUTY                                              (uint8_t(0x2))
-#define OD_CONTROL_BRAKE_SID_CTRL_VAL_ENABLE                                   (uint16_t(0x1))
-#define OD_CONTROL_BRAKE_SID_CTRL_VAL_DISABLE                                  (uint16_t(0x0))
+
 
 // Various
 #define OD_VARIOUS_PASSWORD_ID                                                 (uint16_t(0x7200))
