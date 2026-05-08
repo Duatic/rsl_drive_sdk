@@ -189,7 +189,7 @@ namespace rsl_drive_sdk
 
     std::string model;
     getDriveModel(model);
-    MELO_INFO("[" + getName() + "] model: " + model)
+    MELO_INFO_STREAM("[" << getName() << "] model: "<< model);
     // Configure PDO setup
     if (!configurePdo(pdoTypeEnum_))
     {
