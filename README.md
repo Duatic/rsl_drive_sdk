@@ -1,5 +1,11 @@
 # rsl_drive_sdk 
 
+[![Rolling Build Main](https://github.com/Duatic/rsl_drive_sdk/actions/workflows/build-rolling.yml/badge.svg)](https://github.com/Duatic/rsl_drive_sdk/actions/workflows/build-rolling.yml)
+[![Kilted Build Main](https://github.com/Duatic/rsl_drive_sdk/actions/workflows/build-kilted.yml/badge.svg)](https://github.com/Duatic/rsl_drive_sdk/actions/workflows/build-kilted.yml)
+[![Jazzy Build Main](https://github.com/Duatic/rsl_drive_sdk/actions/workflows/build-jazzy.yml/badge.svg)](https://github.com/Duatic/rsl_drive_sdk/actions/workflows/build-jazzy.yml)
+[![Humble Build Main](https://github.com/Duatic/rsl_drive_sdk/actions/workflows/build-humble.yml/badge.svg)](https://github.com/Duatic/rsl_drive_sdk/actions/workflows/build-humble.yml)
+
+
 Software Development Kit for all RSL drives.\
 The source code is released under  [BSD 3](LICENSE).
 
