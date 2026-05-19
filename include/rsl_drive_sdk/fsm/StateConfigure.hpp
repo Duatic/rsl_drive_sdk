@@ -38,7 +38,7 @@ class StateConfigure : public StateBase
 protected:
   unsigned int step_ = 0;
   std::map<rsl_drive_sdk::mode::ModeEnum, rsl_drive_sdk::mode::ModeBasePtr>::iterator step_mode_;
-
+  std::map<rsl_drive_sdk::mode::ModeEnum, rsl_drive_sdk::mode::ModeBasePtr> modes_;
 public:
   StateConfigure(DriveEthercatDevice & rsl_drive_sdk, std::atomic<StateEnum> & goalStateEnum);
   virtual ~StateConfigure();

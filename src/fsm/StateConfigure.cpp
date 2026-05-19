@@ -202,14 +202,14 @@ void StateConfigure::updateDerived()
           rsl_drive_sdk_.getConfiguration().getMaxFreezeCurrent().value());
     }
     step_++;
-    step_mode_ = rsl_drive_sdk_.getConfiguration().getModes().begin();
+    modes_ = rsl_drive_sdk_.getConfiguration().getModes();
+    step_mode_ = modes_.begin();
     return;
   }
 
   if (step_ == 17) {
-    const auto & modes = rsl_drive_sdk_.getConfiguration().getModes();
 
-    if (step_mode_ != modes.end()) {
+    if (step_mode_ != modes_.end()) {
 
      // std::advance(modeIt, stepMode_);
       if (step_mode_->second->getPidGains()) {
