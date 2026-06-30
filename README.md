@@ -1,10 +1,10 @@
 # rsl_drive_sdk 
 
-[![Rolling](https://github.com/Duatic/rsl_drive_sdk/actions/workflows/build-rolling.yml/badge.svg)](https://github.com/Duatic/rsl_drive_sdk/actions/workflows/build-rolling.yml)
-[![Lyrical](https://github.com/Duatic/rsl_drive_sdk/actions/workflows/build-lyrical.yml/badge.svg)](https://github.com/Duatic/rsl_drive_sdk/actions/workflows/build-lyrical.yml)
-[![Kilted](https://github.com/Duatic/rsl_drive_sdk/actions/workflows/build-kilted.yml/badge.svg)](https://github.com/Duatic/rsl_drive_sdk/actions/workflows/build-kilted.yml)
-[![Jazzy](https://github.com/Duatic/rsl_drive_sdk/actions/workflows/build-jazzy.yml/badge.svg)](https://github.com/Duatic/rsl_drive_sdk/actions/workflows/build-jazzy.yml)
 [![Humble](https://github.com/Duatic/rsl_drive_sdk/actions/workflows/build-humble.yml/badge.svg)](https://github.com/Duatic/rsl_drive_sdk/actions/workflows/build-humble.yml)
+[![Jazzy](https://github.com/Duatic/rsl_drive_sdk/actions/workflows/build-jazzy.yml/badge.svg)](https://github.com/Duatic/rsl_drive_sdk/actions/workflows/build-jazzy.yml)
+[![Kilted](https://github.com/Duatic/rsl_drive_sdk/actions/workflows/build-kilted.yml/badge.svg)](https://github.com/Duatic/rsl_drive_sdk/actions/workflows/build-kilted.yml)
+[![Lyrical](https://github.com/Duatic/rsl_drive_sdk/actions/workflows/build-lyrical.yml/badge.svg)](https://github.com/Duatic/rsl_drive_sdk/actions/workflows/build-lyrical.yml)
+[![Rolling](https://github.com/Duatic/rsl_drive_sdk/actions/workflows/build-rolling.yml/badge.svg)](https://github.com/Duatic/rsl_drive_sdk/actions/workflows/build-rolling.yml)
 
 
 Software Development Kit for all RSL drives.\
