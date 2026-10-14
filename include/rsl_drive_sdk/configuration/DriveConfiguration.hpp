@@ -449,7 +449,7 @@ protected:
   fsm::StateEnum goalStateEnumShutdown_ = fsm::StateEnum::Configure;
 
   /**
-   * @brief fake_ true indicates this is a fake rsl_drive_sdk that doesnt get added to a communication manager
+   * @brief fake_ true indicates this is a fake rsl_drive_sdk that doesn't get added to a communication manager
    */
   bool fake_;
 

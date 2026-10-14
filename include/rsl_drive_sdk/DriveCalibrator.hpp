@@ -38,7 +38,7 @@ namespace rsl_drive_sdk
 
     /**
      * @brief start_calibration - run calibration non blocking
-     * @return false als long as calibration is running
+     * @return false as long as calibration is running
      * @throws on error
      */
     void start_calibration(

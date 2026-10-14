@@ -1,10 +1,10 @@
-# rsl_drive_sdk 
+# rsl_drive_sdk
 
-[![Humble](https://github.com/Duatic/rsl_drive_sdk/actions/workflows/build-humble.yml/badge.svg)](https://github.com/Duatic/rsl_drive_sdk/actions/workflows/build-humble.yml)
-[![Jazzy](https://github.com/Duatic/rsl_drive_sdk/actions/workflows/build-jazzy.yml/badge.svg)](https://github.com/Duatic/rsl_drive_sdk/actions/workflows/build-jazzy.yml)
-[![Kilted](https://github.com/Duatic/rsl_drive_sdk/actions/workflows/build-kilted.yml/badge.svg)](https://github.com/Duatic/rsl_drive_sdk/actions/workflows/build-kilted.yml)
-[![Lyrical](https://github.com/Duatic/rsl_drive_sdk/actions/workflows/build-lyrical.yml/badge.svg)](https://github.com/Duatic/rsl_drive_sdk/actions/workflows/build-lyrical.yml)
-[![Rolling](https://github.com/Duatic/rsl_drive_sdk/actions/workflows/build-rolling.yml/badge.svg)](https://github.com/Duatic/rsl_drive_sdk/actions/workflows/build-rolling.yml)
+[![Humble](https://github.com/Duatic/rsl_drive_sdk/raw/badges/humble.svg)](https://github.com/Duatic/rsl_drive_sdk/actions/workflows/ci.yml)
+[![Jazzy](https://github.com/Duatic/rsl_drive_sdk/raw/badges/jazzy.svg)](https://github.com/Duatic/rsl_drive_sdk/actions/workflows/ci.yml)
+[![Kilted](https://github.com/Duatic/rsl_drive_sdk/raw/badges/kilted.svg)](https://github.com/Duatic/rsl_drive_sdk/actions/workflows/ci.yml)
+[![Lyrical](https://github.com/Duatic/rsl_drive_sdk/raw/badges/lyrical.svg)](https://github.com/Duatic/rsl_drive_sdk/actions/workflows/ci.yml)
+[![Rolling](https://github.com/Duatic/rsl_drive_sdk/raw/badges/rolling.svg)](https://github.com/Duatic/rsl_drive_sdk/actions/workflows/ci.yml)
 
 
 Software Development Kit for all RSL drives.\
@@ -16,7 +16,7 @@ The source code is released under  [BSD 3](LICENSE).
 | ---|  --- |
 | Dynadrive | Fully supported, including calibration |
 | Halodi drives | Fully supported, including calibration |
-| Other | There are additional, but not officially supported drives | 
+| Other | There are additional, but not officially supported drives |
 
 
 ## Dependencies
@@ -25,15 +25,15 @@ The source code is released under  [BSD 3](LICENSE).
 
 | Repository | URL | License | Content |
 | --- | - | --- | --- |
-| ethercat_sdk_master | https://github.com/leggedrobotics/ethercat_sdk_master/tree/master/ethercat_sdk_master | BSD 3-Clause | Ethercat master implementation | 
-| soem_interface | https://github.com/leggedrobotics/soem_interface | GPLv3 | Wrapper around [SOEM](https://github.com/OpenEtherCATsociety/soem) | 
+| ethercat_sdk_master | https://github.com/leggedrobotics/ethercat_sdk_master/tree/master/ethercat_sdk_master | BSD 3-Clause | Ethercat master implementation |
+| soem_interface | https://github.com/leggedrobotics/soem_interface | GPLv3 | Wrapper around [SOEM](https://github.com/OpenEtherCATsociety/soem) |
 | message_logger | https://github.com/leggedrobotics/message_logger.git | BSD 3-Clause | Simple logger |
 
 #### Installable via rosdep:
 
 | Repository | URL | License | Content |
 | --- | - | --- | --- |
-| yaml_cpp_vendor |https://github.com/ros2/yaml_cpp_vendor | Apache 2.0 / MIT | yaml library | 
+| yaml_cpp_vendor |https://github.com/ros2/yaml_cpp_vendor | Apache 2.0 / MIT | yaml library |
 
 ## Usage
 
