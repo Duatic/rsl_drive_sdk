@@ -25,7 +25,7 @@ The source code is released under  [BSD 3](LICENSE).
 
 | Repository | URL | License | Content |
 | --- | - | --- | --- |
-| ethercat_sdk_master | https://github.com/leggedrobotics/ethercat_sdk_master/tree/master/ethercat_sdk_master | BSD 3-Clause | Ethercat master implementation |
+| ethercat_sdk_master | https://github.com/leggedrobotics/ethercat_sdk_master/tree/master/ethercat_sdk_master | BSD 3-Clause | EtherCAT master implementation |
 | soem_interface | https://github.com/leggedrobotics/soem_interface | GPLv3 | Wrapper around [SOEM](https://github.com/OpenEtherCATsociety/soem) |
 | message_logger | https://github.com/leggedrobotics/message_logger.git | BSD 3-Clause | Simple logger |
 

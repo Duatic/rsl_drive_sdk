@@ -17,7 +17,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
   <version>1.0.0</version>
   <description>Core C++ library to interface one or multiple drives. Contains abstract base classes for the communication interface.</description>
 
-  <license>BSDv3</license>
+  <license>BSD-3-Clause</license>
   <author email="lnachtigall@ethz.ch">Lennart Nachtigall</author>
   <author email="jungerj@student.ethz.ch">Jonas Junger</author>
   <maintainer email="lnachtigall@duatic.com">Lennart Nachtigall</maintainer>
@@ -26,7 +26,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 
   <depend>message_logger</depend>
-  <depend>ethercat_sdk_master</depend>
+  <depend>ecat_sdk_master</depend>
   <depend>yaml-cpp</depend>
 
+  <export>
+    <build_type>ament_cmake</build_type>
+    <duatic_archive_root>public</duatic_archive_root>
+  </export>
 </package>

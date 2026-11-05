@@ -32,7 +32,7 @@
 // rsl_drive_sdk
 
 // soem_interface
-#include <ethercat_sdk_master/EthercatDevice.hpp>
+#include <ecat_sdk_master/EthercatDevice.hpp>
 
 
 // rsl_drive_sdk ethercat
