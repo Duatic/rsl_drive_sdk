@@ -8,7 +8,7 @@ find_package(yaml-cpp REQUIRED)
 add_definitions(-DMELO_MIN_SEVERITY=MELO_SEVERITY_INFO)
 add_definitions(-DMELO_USE_COUT)
 
-find_package(ethercat_sdk_master REQUIRED)
+find_package(ecat_sdk_master REQUIRED)
 
 
 
@@ -32,10 +32,10 @@ target_compile_features(${PROJECT_NAME} PUBLIC cxx_std_17)
 
 # Support ros distros older than lyrical
 if(COMMAND ament_target_dependencies)
-    ament_target_dependencies(${PROJECT_NAME} ethercat_sdk_master)
+    ament_target_dependencies(${PROJECT_NAME} ecat_sdk_master)
 else()
     target_link_libraries(${PROJECT_NAME}
-    ethercat_sdk_master::ethercat_sdk_master)
+    ecat_sdk_master::ecat_sdk_master)
 endif()
 
 
@@ -63,7 +63,7 @@ ament_export_include_directories(include)
 ament_export_targets(export_${PROJECT_NAME})
 
 ament_export_dependencies(
-  ethercat_sdk_master
+  ecat_sdk_master
   yaml-cpp
 
 )
