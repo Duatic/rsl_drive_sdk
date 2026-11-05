@@ -1,17 +1,16 @@
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Changelog for package rsl_drive_sdk
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 2.0.0 (2026-11-05)
 ------------------
-* feat(ci): update CI workflows (#6)
-* CI & README standardization (#7)
-* fix rolling ci
-* Bump actions/checkout from 6 to 7
-* added support for lyrical
-* fix dangling iterator bug
-* added ostream operator for BrakeState
-* fix repos.list
-* added ci
-* Use stream style logging
-* wire in brake support
-* update to use soem_vendor package (also updates soem)
-* added support for asynchronous calibration
-* directly use yaml-cpp instead of yaml_cpp_vendor
-* Minor doc fix
+* feat!: brake support: setBrakeTargetState and getBrakeCurrentState with BrakeState replace
+  setBrakeMode, getBrakeMode, setBrakeDuty and getBrakeDuty
+* feat: asynchronous calibration
+* feat: an ostream operator for BrakeState
+* feat: support ROS 2 lyrical
+* feat: build on soem_vendor, with its newer SOEM
+* fix: a dangling iterator over the drive modes
+* refactor: follow the rename to ecat_sdk_master (#13)
+* refactor: use stream style logging
+* docs: fix the README title
