@@ -27,6 +27,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
   <depend>message_logger</depend>
   <depend>ecat_sdk_master</depend>
+  <depend>duatic_soem_vendor</depend>
   <depend>yaml-cpp</depend>
 
   <export>

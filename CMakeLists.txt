@@ -9,6 +9,7 @@ add_definitions(-DMELO_MIN_SEVERITY=MELO_SEVERITY_INFO)
 add_definitions(-DMELO_USE_COUT)
 
 find_package(ecat_sdk_master REQUIRED)
+find_package(duatic_soem_vendor REQUIRED)
 
 
 
@@ -41,6 +42,7 @@ endif()
 
 target_link_libraries(${PROJECT_NAME}
   yaml-cpp
+  duatic_soem_vendor::duatic_soem_vendor
 )
 
 
