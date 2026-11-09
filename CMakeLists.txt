@@ -9,6 +9,7 @@ add_definitions(-DMELO_MIN_SEVERITY=MELO_SEVERITY_INFO)
 add_definitions(-DMELO_USE_COUT)
 
 find_package(ecat_sdk_master REQUIRED)
+find_package(message_logger REQUIRED)
 
 
 
@@ -41,6 +42,7 @@ endif()
 
 target_link_libraries(${PROJECT_NAME}
   yaml-cpp
+  message_logger::message_logger
 )
 
 
@@ -64,8 +66,8 @@ ament_export_targets(export_${PROJECT_NAME})
 
 ament_export_dependencies(
   ecat_sdk_master
+  message_logger
   yaml-cpp
-
 )
 
 
